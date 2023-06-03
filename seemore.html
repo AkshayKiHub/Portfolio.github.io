@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/123e424291.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <nav>
+            <img src="logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars " onclick="openmenu()"></i>
+        </nav>
+
+    </div>
+    <div id="project">
+        <div class="container ">
+            <h1 class="sub-title ">My Projects</h1>
+            <div class="project-list ">
+                <div class="work ">
+                    <img src="work-1.jpg" alt=" ">
+                    <div class="layer ">
+                        <h3>Form Validation</h3>
+                        <p>This is a fully functional eCommerce website that uses React.js + MUI and CSS in the front end and NodeJs and express js in backend and MongoDb as Database</p>
+                        <a href="# "><i class="fa-solid fa-up-right-from-square fa-beat "></i></a>
+                    </div>
+                </div>
+                <div class="work ">
+                    <img src="work-2.jpg" alt=" ">
+                    <div class="layer ">
+                        <h3>The Portfolio</h3>
+                        <p>My personal Portfolio Website build with React and Bootstrap. It is fully responsive website which supports both dark and light mode.</p>
+                        <a href="# "><i class="fa-solid fa-up-right-from-square fa-beat "></i></a>
+                    </div>
+                </div>
+                <div class="work ">
+                    <img src="work-3.jpg" alt=" ">
+                    <div class="layer ">
+                        <h3>Weather API</h3>
+                        <p>A Personal Chat Application to share resources and hangout with friends build with react.js, css, and Firebase.</p>
+                        <a href="# "><i class="fa-solid fa-up-right-from-square fa-beat "></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-180px";
+        }
+    </script>
+</body>
+
+
+</html>

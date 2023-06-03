@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/123e424291.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Certification</a>
+                    </li>
+                    <li>
+                        <a href="#project">Project</a>
+                    </li>
+                    <li>
+                        <a href="2022_Akshay_Resume.pdf" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars " onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hi, There ! <i class="fa-regular fa-hand fa-shake " style="color: #1725e8; "></i></p>
+                <h1>I'm <span>Akshay Agarwal</span>
+                    <br>from Kolkata</h1>
+                <span id="element"></span>
+            </div>
+
+        </div>
+    </div>
+    <!-- ----------about------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user1.jpg" class="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a self-taught Web Developer specialized in the Front-End Development. I'm passionate to learn about new technologies and seeking a challenging position which will enable me to continuously learn, create, innovative and simultaneously
+                        contribute to the short term as well as long term goals to the organization. As a fresh graduate with expertise in Java, MySQL, HTML, CSS and JavaScript, I bring a combination of technical skills, a willingness to learn and a passion
+                        for programming to any organization that I work for.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>OOPs Concepts and DSA</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript and Bootstrap</li>
+                            <li><span>DBMS</span><br>MySQL</li>
+                            <li><span>Version Control System</span><br>Git & GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021</span><br>Internshala Training on Web Development</li>
+                            <li><span>2022 - 2023</span><br> HTML and CSS in depth from Meta Coursera</li>
+                            <li><span>2023</span><br>Programming with JavaScript from Meta Coursera</li>
+                            <li><span>2023</span><br>Version Control from Meta Coursera</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015</span><br>10<sup>th</sup> from Tiny Taught School</li>
+                            <li><span>2018</span><br>12<sup>th</sup> from Central Academy School</li>
+                            <li><span>2018-2022</span><br>B.Tech from Narula Institute of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------ service--------- -->
+    <div id="services">
+        <div class="container ">
+            <h1 class="sub-title ">My Certification</h1>
+            <div class="services-list ">
+                <div>
+                    <i class="fa-solid fa-code fa-bounce fa-lg " style="color: white; "></i>
+                    <h2>HTMl & CSS</h2>
+                    <p>The Meta Coursera HTML & CSS course offers an in-depth study of these essential web technologies, providing the skills to create visually appealing, accessible websites through topics such as semantic markup, layout techniques, and
+                        typography.
+                    </p>
+                    <a href="Coursera 3G2Z2G5C6QGQ_HTML & CSS in depth.pdf" target="_blank">View...</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js fa-bounce fa-lg " style="color: white; "></i>
+                    <h2>JavaScript</h2>
+                    <p>The Meta Coursera Programming with JavaScript course provides a comprehensive introduction to JavaScript programming, providing the skills to build interactive web applications. Covering JavaScript syntax, data manipulation, and event
+                        handling, this course offers practical experience in creating dynamic and engaging web projects.</p>
+                    <a href="Coursera EFBKFRQU2LJZ_javascript.pdf" target="_blank">View...</a>
+                </div>
+                <div>
+
+                    <i class="fa-brands fa-git-alt fa-bounce fa-lg" style="color: #ffffff;"></i>
+                    <h2>Version Control</h2>
+                    <p>The Meta Coursera Version Control course offers a thorough exploration of version control systems like Git, providing skills such as branching, merging, and resolving conflicts, this course enables learners to effectively manage and
+                        track changes in their projects.</p>
+                    <a href="Coursera QLUH3KTZ3D5Q_Version Control.pdf" target="_blank">View...</a>
+                </div>
+            </div>
+        </div>
+        <a href="seemore2.html" class="btn ">See more</a>
+    </div>
+    <!-- -------- Projects------- -->
+    <div id="project">
+        <div class="container ">
+            <h1 class="sub-title ">My Projects</h1>
+            <div class="project-list ">
+                <div class="work ">
+                    <img src="work-3.jpg" alt=" ">
+                    <div class="layer ">
+                        <h3>Basic Static WebPage</h3>
+                        <p>
+                            I created a basic static web page using HTML, CSS, and JavaScript that features a navigation bar for easy website navigation. Additionally, the page includes login and register functionality, allowing users to securely access and interact with the website's
+                            features. This project showcases my proficiency in front-end web development and user interface design</p>
+                        <a href="# "><i class="fa-solid fa-up-right-from-square fa-beat "></i></a>
+                    </div>
+                </div>
+                <div class="work ">
+                    <img src="work-1.jpg" alt=" ">
+                    <div class="layer ">
+                        <h3>Form Validation</h3>
+                        <p>
+                            I designed and implemented a form validation web page using HTML, CSS, and JavaScript, ensuring data accuracy and user-friendly input. Through client-side validation techniques, the page provides real-time feedback to users, improving the overall form
+                            submission experience. This project showcases my skills in front-end development and form validation implementation</p>
+                        <a href="https://akshaykihub.github.io/Form_Validation/" target="_blank"><i class="fa-solid fa-up-right-from-square fa-beat "></i></a>
+                    </div>
+                </div>
+                <div class="work ">
+                    <img src="work-2.jpg" alt=" ">
+                    <div class="layer ">
+                        <h3>The Portfolio</h3>
+                        <p>I developed a personal portfolio web page using HTML, CSS, and JavaScript, featuring a responsive design that adapts to different devices. The page includes a navigation bar for easy access to different sections, showcases my certifications
+                            and projects, and provides a contact section for potential clients or collaborators. This project demonstrates my expertise in front-end development and showcases my professional achievements and skills.</p>
+                        <a href="# "><i class="fa-solid fa-up-right-from-square fa-beat "></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="seemore.html" class="btn ">See more</a>
+        </div>
+    </div>
+    <!-- ------- contact----- -->
+    <div id="contact">
+        <div class="container ">
+            <div class="row ">
+                <div class="contact-left ">
+                    <h1 class="sub-title ">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane "></i> agarwalakshay022@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone "></i> +91 9748190065</p>
+                    <div class="social-icons ">
+                        <a href="https://github.com/AkshayKiHub" target="_blank"><i class="fa-brands fa-github "></i></a>
+                        <a href="https://www.linkedin.com/in/akshay-agarwal-615753213" target="_blank"><i class="fa-brands fa-linkedin "></i></a>
+                        <a href="https://www.facebook.com/akshay.agarwal.102977?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook "></i></a>
+                        <a href="https://instagram.com/golu_2u?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fa-brands fa-instagram "></i></a>
+                    </div>
+                    <a href="2022_Akshay_Resume.pdf " download class="btn btn2 ">Download CV</a>
+                </div>
+                <div class="contact-right ">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email Id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright ">
+            <p>Copyright © Portfolio. Made with <i class="fa-solid fa-heart fa-beat " style="color: red; "></i> by Akshay Agarwal</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-180px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzpfEcA6telE9uRX8c-395gSnAgDcW0git7N0_HZcYo85EFXRibVEyStao_i-_P_R73yg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Electronics and Communications Engineer', 'Open Source Contributor', 'Front-End Developer'],
+            typeSpeed: 80,
+        });
+    </script>
+
+
+</body>
+
+</html>

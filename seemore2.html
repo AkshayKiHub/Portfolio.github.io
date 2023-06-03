@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/123e424291.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <nav>
+            <img src="logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars " onclick="openmenu()"></i>
+        </nav>
+
+    </div>
+    <div id="services">
+        <div class="container ">
+            <h1 class="sub-title ">My Certification</h1>
+            <div class="services-list ">
+                <div>
+                    <i class="fa-solid fa-code fa-bounce fa-lg " style="color: white; "></i>
+                    <h2>HTMl & CSS</h2>
+                    <p>The Meta Coursera HTML & CSS course offers an in-depth study of these essential web technologies, providing the skills to create visually appealing, accessible websites through topics such as semantic markup, layout techniques, and
+                        typography.
+                    </p>
+                    <a href="Coursera 3G2Z2G5C6QGQ_HTML & CSS in depth.pdf" target="_blank">View...</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js fa-bounce fa-lg " style="color: white; "></i>
+                    <h2>JavaScript</h2>
+                    <p>The Meta Coursera Programming with JavaScript course provides a comprehensive introduction to JavaScript programming, providing the skills to build interactive web applications. Covering JavaScript syntax, data manipulation, and event
+                        handling, this course offers practical experience in creating dynamic and engaging web projects.</p>
+                    <a href="Coursera EFBKFRQU2LJZ_javascript.pdf" target="_blank">View...</a>
+                </div>
+                <div>
+
+                    <i class="fa-brands fa-git-alt fa-bounce fa-lg" style="color: #ffffff;"></i>
+                    <h2>Version Control</h2>
+                    <p>The Meta Coursera Version Control course offers a thorough exploration of version control systems like Git, providing skills such as branching, merging, and resolving conflicts, this course enables learners to effectively manage and
+                        track changes in their projects.</p>
+                    <a href="Coursera QLUH3KTZ3D5Q_Version Control.pdf" target="_blank">View...</a>
+                </div>
+            </div>
+            <div class="services-list ">
+                <div>
+                    <i class="fa-solid fa-code fa-bounce fa-lg " style="color: white; "></i>
+                    <h2>Web Development</h2>
+                    <p>A six weeks online training on Web Development. The training consisted of HTML & CSS, Bootstrap, SQL and PHP modules.</p>
+                    <a href="Web Development Training - Certificate of Completion (1).pdf" target="_blank">View...</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java fa-bounce fa-lg " style="color: white; "></i>
+                    <h2>Java</h2>
+                    <p>I learned Java programming through W3School, gaining proficiency in essential concepts and practical application. This learning equipped me with the skills to develop robust and efficient Java applications for various software projects.</p>
+                    <a href="https://www.w3schools.com/java/default.asp" target="_blank">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database fa-bounce fa-lg " style="color: white; "></i>
+                    <h2>DBMS</h2>
+                    <p>I gained expertise in MySQL and database management through W3School. This learning provided hands-on experience in designing and implementing efficient database systems for effective data storage and retrieval</p>
+                    <a href="https://www.w3schools.com/mysql/default.asp">Learn more...</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-180px";
+        }
+    </script>
+</body>
+
+
+</html>
